@@ -1,0 +1,8 @@
+Step,Remaining,Removed,Positive class %
+Initial records,4240,0,
+Incomplete records (complete-case analysis),3751,489,
+Duplicate rows removed,3751,0,
+Systolic outside 80-250 mmHg,3750,1,
+Diastolic outside 40-150 mmHg,3750,0,
+Diastolic >= systolic,3750,0,
+BMI outside 12-60,3750,0,15.23

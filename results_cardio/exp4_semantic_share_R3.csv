@@ -1,0 +1,8 @@
+concept,False,True,semantic_share_%
+Age,0.1796,0.025,12.2095
+Blood pressure,0.3898,0.0908,18.897
+Body composition,0.031,0.0038,10.9279
+Composite (CSRI),0.0,0.167,100.0
+Lifestyle,0.031,0.0052,14.3545
+Metabolic,0.1054,0.0271,20.4439
+Sex,0.0069,0.0,0.0

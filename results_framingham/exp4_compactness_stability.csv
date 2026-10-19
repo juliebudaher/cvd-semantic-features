@@ -1,0 +1,4 @@
+representation,n_features,features_for_80pct_mean,features_for_80pct_sd,rank_stability_kendall_tau,method
+R1 Raw,14,5.4,0.4899,0.7934,SHAP
+R2 Semantic,7,4.0,0.0,0.4476,SHAP
+R3 Raw+Semantic,20,8.0,0.8944,0.6905,SHAP

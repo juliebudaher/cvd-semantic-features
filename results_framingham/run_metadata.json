@@ -1,0 +1,67 @@
+{
+  "python": "3.13.16",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.1",
+  "xgboost": "3.4.1",
+  "shap": "0.54.1",
+  "dataset": "framingham",
+  "threshold_mode": "prevalence",
+  "seed": 42,
+  "cv": "5-fold x 5 repeats",
+  "tuning": true,
+  "n_iter": 8,
+  "inner_cv": 3,
+  "thresholds": {
+    "ap_hi_range": [
+      80,
+      250
+    ],
+    "ap_lo_range": [
+      40,
+      150
+    ],
+    "height_range": [
+      120,
+      220
+    ],
+    "weight_range": [
+      30,
+      200
+    ],
+    "bmi_range": [
+      12,
+      60
+    ],
+    "bp": {
+      "elevated_sys": 120,
+      "stage1_sys": 130,
+      "stage2_sys": 140,
+      "stage1_dia": 80,
+      "stage2_dia": 90
+    },
+    "bmi": [
+      18.5,
+      25.0,
+      30.0
+    ],
+    "age": [
+      45,
+      55
+    ]
+  },
+  "framingham_thresholds": {
+    "chol": [
+      200,
+      240
+    ],
+    "glucose": [
+      100,
+      126
+    ],
+    "heavy_smoker_cigs": 20
+  },
+  "n_records": 3750,
+  "synthetic": false
+}

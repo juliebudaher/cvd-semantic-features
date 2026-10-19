@@ -1,0 +1,9 @@
+Step,Remaining,Removed,Positive class %
+Initial records,70000,0,
+Duplicate rows removed,69976,24,
+Systolic outside 80-250 mmHg,69729,247,
+Diastolic outside 40-150 mmHg,68714,1015,
+Diastolic >= systolic,68638,76,
+Height outside 120-220 cm,68588,50,
+Weight outside 30-200 kg,68582,6,
+BMI outside 12-60,68557,25,49.48

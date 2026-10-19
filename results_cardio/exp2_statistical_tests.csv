@@ -1,0 +1,73 @@
+metric,model,comparison,mean_diff,ci95_low,ci95_high,t,p_corrected_ttest,p_wilcoxon,cohens_dz,wins,folds,p_holm,significant_0.05
+ROC_AUC,LogReg,R3 Raw+Semantic vs R1 Raw,-0.000684,-0.00095,-0.000417,-5.285048,2e-05,0.0,-2.84604,0,25,0.000384,True
+ROC_AUC,LogReg,R2 Semantic vs R1 Raw,-0.031287,-0.033756,-0.028819,-26.16191,0.0,0.0,-14.088398,0,25,0.0,True
+ROC_AUC,LogReg,R4 Raw+Basic semantic vs R1 Raw,-0.000658,-0.000933,-0.000383,-4.943604,4.8e-05,0.0,-2.66217,0,25,0.000815,True
+ROC_AUC,LogReg,R3 Raw+Semantic vs R4 Raw+Basic semantic,-2.5e-05,-4.7e-05,-4e-06,-2.485074,0.020317,1e-06,-1.338232,1,25,0.325078,False
+ROC_AUC,LogReg,R3 Raw+Semantic vs R5 Raw+Numeric derived,-0.000682,-0.00095,-0.000414,-5.251087,2.2e-05,0.0,-2.827752,0,25,0.000397,True
+ROC_AUC,LogReg,R6 Raw+Auto interactions vs R1 Raw,0.005266,0.004401,0.00613,12.577416,0.0,0.0,6.773039,25,25,0.0,True
+ROC_AUC,DecisionTree,R3 Raw+Semantic vs R1 Raw,0.000213,-0.002696,0.003122,0.1511,0.88116,0.560171,0.081368,14,25,1.0,False
+ROC_AUC,DecisionTree,R2 Semantic vs R1 Raw,-0.02208,-0.025934,-0.018226,-11.824034,0.0,0.0,-6.367337,0,25,0.0,True
+ROC_AUC,DecisionTree,R4 Raw+Basic semantic vs R1 Raw,-8.7e-05,-0.002904,0.002731,-0.063478,0.949911,0.465415,-0.034184,13,25,1.0,False
+ROC_AUC,DecisionTree,R3 Raw+Semantic vs R4 Raw+Basic semantic,0.0003,-0.003219,0.003819,0.175716,0.861991,0.873988,0.094625,11,25,1.0,False
+ROC_AUC,DecisionTree,R3 Raw+Semantic vs R5 Raw+Numeric derived,0.000354,-0.002856,0.003563,0.227366,0.822065,0.507704,0.122439,13,25,1.0,False
+ROC_AUC,DecisionTree,R6 Raw+Auto interactions vs R1 Raw,-0.000857,-0.00434,0.002626,-0.507792,0.616235,0.230361,-0.27345,11,25,1.0,False
+ROC_AUC,RandomForest,R3 Raw+Semantic vs R1 Raw,-0.000535,-0.001143,7.3e-05,-1.817542,0.081641,1.2e-05,-0.978761,4,25,1.0,False
+ROC_AUC,RandomForest,R2 Semantic vs R1 Raw,-0.02766,-0.029319,-0.026001,-34.41333,0.0,0.0,-18.531854,0,25,0.0,True
+ROC_AUC,RandomForest,R4 Raw+Basic semantic vs R1 Raw,-0.000718,-0.001577,0.000141,-1.725126,0.097361,0.000103,-0.928994,5,25,1.0,False
+ROC_AUC,RandomForest,R3 Raw+Semantic vs R4 Raw+Basic semantic,0.000183,-0.000587,0.000952,0.489847,0.62869,0.263476,0.263787,14,25,1.0,False
+ROC_AUC,RandomForest,R3 Raw+Semantic vs R5 Raw+Numeric derived,-0.00012,-0.000924,0.000685,-0.307207,0.761336,0.263476,-0.165433,10,25,1.0,False
+ROC_AUC,RandomForest,R6 Raw+Auto interactions vs R1 Raw,1.3e-05,-0.000601,0.000626,0.042828,0.966193,0.936803,0.023063,11,25,1.0,False
+ROC_AUC,XGBoost,R3 Raw+Semantic vs R1 Raw,-0.000282,-0.000729,0.000165,-1.302947,0.204956,0.002255,-0.701647,6,25,1.0,False
+ROC_AUC,XGBoost,R2 Semantic vs R1 Raw,-0.027027,-0.02902,-0.025034,-27.986892,0.0,0.0,-15.071166,0,25,0.0,True
+ROC_AUC,XGBoost,R4 Raw+Basic semantic vs R1 Raw,-8e-05,-0.000441,0.000281,-0.458352,0.650823,0.338788,-0.246826,11,25,1.0,False
+ROC_AUC,XGBoost,R3 Raw+Semantic vs R4 Raw+Basic semantic,-0.000202,-0.000657,0.000253,-0.916238,0.368657,0.029578,-0.493402,8,25,1.0,False
+ROC_AUC,XGBoost,R3 Raw+Semantic vs R5 Raw+Numeric derived,-0.000452,-0.001017,0.000114,-1.648831,0.112212,0.000162,-0.887909,5,25,1.0,False
+ROC_AUC,XGBoost,R6 Raw+Auto interactions vs R1 Raw,0.000251,-0.00026,0.000762,1.012041,0.321614,0.012466,0.544992,20,25,1.0,False
+F1,LogReg,R3 Raw+Semantic vs R1 Raw,0.001499,0.00049,0.002507,3.067782,0.00528,0.0,1.652025,24,25,0.105594,False
+F1,LogReg,R2 Semantic vs R1 Raw,-0.005392,-0.010054,-0.00073,-2.387136,0.025209,3e-06,-1.285492,3,25,0.378138,False
+F1,LogReg,R4 Raw+Basic semantic vs R1 Raw,0.001484,0.000458,0.00251,2.98553,0.006423,0.0,1.607732,24,25,0.12203,False
+F1,LogReg,R3 Raw+Semantic vs R4 Raw+Basic semantic,1.5e-05,-0.000171,0.0002,0.164682,0.870573,0.507704,0.088683,15,25,1.0,False
+F1,LogReg,R3 Raw+Semantic vs R5 Raw+Numeric derived,0.00156,0.000429,0.002691,2.846204,0.008916,1e-06,1.532704,23,25,0.16049,False
+F1,LogReg,R6 Raw+Auto interactions vs R1 Raw,0.014407,0.01196,0.016855,12.148805,0.0,0.0,6.542229,25,25,0.0,True
+F1,DecisionTree,R3 Raw+Semantic vs R1 Raw,0.001816,-0.006051,0.009683,0.476386,0.638108,0.380984,0.256538,14,25,1.0,False
+F1,DecisionTree,R2 Semantic vs R1 Raw,-0.017307,-0.02637,-0.008244,-3.941283,0.000611,0.0,-2.122413,0,25,0.012833,True
+F1,DecisionTree,R4 Raw+Basic semantic vs R1 Raw,-0.000142,-0.009547,0.009264,-0.031082,0.975461,0.708884,-0.016738,12,25,1.0,False
+F1,DecisionTree,R3 Raw+Semantic vs R4 Raw+Basic semantic,0.001957,-0.006275,0.01019,0.49075,0.628061,0.52963,0.264273,12,25,1.0,False
+F1,DecisionTree,R3 Raw+Semantic vs R5 Raw+Numeric derived,0.000115,-0.007766,0.007996,0.030117,0.976223,0.936803,0.016218,12,25,1.0,False
+F1,DecisionTree,R6 Raw+Auto interactions vs R1 Raw,1.7e-05,-0.009492,0.009525,0.003591,0.997165,0.615043,0.001934,16,25,1.0,False
+F1,RandomForest,R3 Raw+Semantic vs R1 Raw,-2.3e-05,-0.002723,0.002677,-0.01722,0.986404,0.936803,-0.009273,14,25,1.0,False
+F1,RandomForest,R2 Semantic vs R1 Raw,-0.021433,-0.024352,-0.018515,-15.157646,0.0,0.0,-8.162514,0,25,0.0,True
+F1,RandomForest,R4 Raw+Basic semantic vs R1 Raw,0.000695,-0.00196,0.003351,0.540368,0.593923,0.190814,0.290993,16,25,1.0,False
+F1,RandomForest,R3 Raw+Semantic vs R4 Raw+Basic semantic,-0.000718,-0.002832,0.001396,-0.700845,0.49014,0.070984,-0.377411,8,25,1.0,False
+F1,RandomForest,R3 Raw+Semantic vs R5 Raw+Numeric derived,-0.000512,-0.004999,0.003975,-0.235431,0.815871,0.457846,-0.126782,10,25,1.0,False
+F1,RandomForest,R6 Raw+Auto interactions vs R1 Raw,0.002171,-0.000398,0.004739,1.744333,0.093897,8.8e-05,0.939337,23,25,1.0,False
+F1,XGBoost,R3 Raw+Semantic vs R1 Raw,-0.001876,-0.003314,-0.000439,-2.694219,0.012673,1e-06,-1.450858,2,25,0.215449,False
+F1,XGBoost,R2 Semantic vs R1 Raw,-0.02237,-0.026458,-0.018282,-11.293721,0.0,0.0,-6.081759,0,25,0.0,True
+F1,XGBoost,R4 Raw+Basic semantic vs R1 Raw,-0.001729,-0.003202,-0.000257,-2.42395,0.023255,3e-06,-1.305317,3,25,0.372085,False
+F1,XGBoost,R3 Raw+Semantic vs R4 Raw+Basic semantic,-0.000147,-0.001495,0.001201,-0.225184,0.823742,0.711161,-0.121264,14,25,1.0,False
+F1,XGBoost,R3 Raw+Semantic vs R5 Raw+Numeric derived,-0.000981,-0.002463,0.000502,-1.365263,0.184832,0.000912,-0.735205,4,25,1.0,False
+F1,XGBoost,R6 Raw+Auto interactions vs R1 Raw,-0.000979,-0.002348,0.000389,-1.47743,0.152564,0.000912,-0.795608,6,25,1.0,False
+Brier,LogReg,R3 Raw+Semantic vs R1 Raw,0.000124,3.4e-05,0.000213,2.843762,0.008967,3e-06,1.531389,23,25,0.170375,False
+Brier,LogReg,R2 Semantic vs R1 Raw,0.014638,0.013699,0.015576,32.193571,0.0,0.0,17.336496,25,25,0.0,True
+Brier,LogReg,R4 Raw+Basic semantic vs R1 Raw,0.000114,2e-05,0.000207,2.514066,0.019048,7e-06,1.353845,22,25,0.342857,False
+Brier,LogReg,R3 Raw+Semantic vs R4 Raw+Basic semantic,1e-05,-0.0,2e-05,2.060859,0.050312,3e-06,1.109789,24,25,0.804996,False
+Brier,LogReg,R3 Raw+Semantic vs R5 Raw+Numeric derived,9.3e-05,9e-06,0.000177,2.283188,0.031569,1e-05,1.229515,22,25,0.536668,False
+Brier,LogReg,R6 Raw+Auto interactions vs R1 Raw,-0.002863,-0.003277,-0.002448,-14.267426,0.0,0.0,-7.683123,0,25,0.0,True
+Brier,DecisionTree,R3 Raw+Semantic vs R1 Raw,6.8e-05,-0.000638,0.000774,0.198956,0.843973,0.085139,0.107139,18,25,1.0,False
+Brier,DecisionTree,R2 Semantic vs R1 Raw,0.009561,0.008344,0.010779,16.207586,0.0,0.0,8.727915,25,25,0.0,True
+Brier,DecisionTree,R4 Raw+Basic semantic vs R1 Raw,-2.3e-05,-0.000755,0.000709,-0.065297,0.948479,0.670247,-0.035163,10,25,1.0,False
+Brier,DecisionTree,R3 Raw+Semantic vs R4 Raw+Basic semantic,9.1e-05,-0.000765,0.000947,0.219966,0.827758,0.034174,0.118454,19,25,1.0,False
+Brier,DecisionTree,R3 Raw+Semantic vs R5 Raw+Numeric derived,-3.9e-05,-0.000864,0.000786,-0.098485,0.922365,0.89486,-0.053035,15,25,1.0,False
+Brier,DecisionTree,R6 Raw+Auto interactions vs R1 Raw,0.000726,-0.00017,0.001622,1.672376,0.107438,0.00025,0.900588,20,25,1.0,False
+Brier,RandomForest,R3 Raw+Semantic vs R1 Raw,7e-06,-0.000291,0.000306,0.051366,0.959459,0.633827,0.027661,10,25,1.0,False
+Brier,RandomForest,R2 Semantic vs R1 Raw,0.01132,0.010587,0.012054,31.835745,0.0,0.0,17.143804,25,25,0.0,True
+Brier,RandomForest,R4 Raw+Basic semantic vs R1 Raw,0.000166,-0.000201,0.000533,0.933707,0.359754,0.029578,0.502809,17,25,1.0,False
+Brier,RandomForest,R3 Raw+Semantic vs R4 Raw+Basic semantic,-0.000159,-0.000471,0.000154,-1.04821,0.304984,0.025505,-0.56447,10,25,1.0,False
+Brier,RandomForest,R3 Raw+Semantic vs R5 Raw+Numeric derived,-7.4e-05,-0.000469,0.000322,-0.384175,0.704232,0.578206,-0.206881,13,25,1.0,False
+Brier,RandomForest,R6 Raw+Auto interactions vs R1 Raw,-0.000195,-0.000496,0.000107,-1.331967,0.195383,0.001296,-0.717275,5,25,1.0,False
+Brier,XGBoost,R3 Raw+Semantic vs R1 Raw,9.9e-05,-6.3e-05,0.000261,1.259578,0.219934,0.004175,0.678293,19,25,1.0,False
+Brier,XGBoost,R2 Semantic vs R1 Raw,0.011389,0.010542,0.012235,27.769021,0.0,0.0,14.953841,25,25,0.0,True
+Brier,XGBoost,R4 Raw+Basic semantic vs R1 Raw,0.0,-0.00013,0.000131,0.005835,0.995393,0.936803,0.003142,13,25,1.0,False
+Brier,XGBoost,R3 Raw+Semantic vs R4 Raw+Basic semantic,9.9e-05,-7.1e-05,0.000268,1.200956,0.241487,0.004175,0.646725,18,25,1.0,False
+Brier,XGBoost,R3 Raw+Semantic vs R5 Raw+Numeric derived,0.000205,-1.5e-05,0.000425,1.925775,0.066059,2.7e-05,1.037045,22,25,0.990889,False
+Brier,XGBoost,R6 Raw+Auto interactions vs R1 Raw,-0.000134,-0.000342,7.3e-05,-1.336623,0.19388,0.002785,-0.719782,4,25,1.0,False
